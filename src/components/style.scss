@@ -1,0 +1,19 @@
+.countainer-movies {
+    display: flex;
+    width: 100vw;
+    overflow: scroll;
+
+    .card {
+        position: relative;
+    }
+
+    .title-card {
+        bottom: 0;
+        min-height: 75px;
+        position: absolute;
+        background: gray;
+        color: white;
+        opacity: 1;
+        width: -webkit-fill-available;
+    }
+}
